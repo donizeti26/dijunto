@@ -1,64 +1,72 @@
-body{
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,
-  "Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
-  "Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
-  font-size: 14px;
-  background: #eee;
-  color:#666
+a{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fff
 }
-login-container{
-  height: 100vh;
+#texto{
+  color: #fff
+}
+#img{
+  width: 200px;
+  height: 200px;
+
+}
+
+html,
+body {
+  height: 100%;
+
+}
+
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+
+  padding-bottom: 40px;
+ background: url(../img/wallpaper.png);
+}
+
+/*-----------------------*/
+
+.form-signin {
   width: 100%;
-}
-login-form{
-  max-width: 100%;
-  width: 370px;
+  max-width: 330px;
   padding: 15px;
   margin: auto;
 }
-.form-control{
-  font-size: 15px;
-  min-height: 48px;
-  font-weight: 500;
+.form-signin .checkbox {
+  font-weight: 400;
 }
-.form-control:focus{
-  border-color: #723dbe;
-  box-shadow: 0 0 0 0.2rem rgba(144, 61, 190, .25);
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
 }
-.forgot-link{
-  font-size: 13px;
+.form-signin .form-control:focus {
+  z-index: 2;
 }
-.forgot-link label{
-  margin-bottom: 0;
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
-
-.login-form a {
-  text-decoration: none;
-  color: #666;
-
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
-.login-form a:hover{
-  color: #723dbe;
+#texto{
+  display: flex;
+flex-direction: column;
+align-items: baseline;
 }
-.btn-custom{
-  background: #723dbe;
-  border-color: #723dbe;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 600;
-  min-height: 48px;
-}
-
-.btn-custom:focus,
-.btn-custom:hover,
-.btn-custom:active
-.btn-custom:active:focus{
-  background: #54229d;
-  border-color: #54229d;
-  color: #fff;
-}
-.btn-custom:focus{
-  box-shadow: 0 0 0 0.2rem rgba(144, 61, 190, .25);
-
+.form-group{
+  margin-bottom: 0.4rem;
 }

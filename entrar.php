@@ -2,34 +2,39 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
         <title>Dijunto</title>
         <link rel="icon" type="imagem/png" href="./img/logo.png" />
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/entrar.css">
-
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.4/examples/sign-in/">     
 
     </head>
-    <body>
-      <div class="login-container d-flex align-items-center justify-content-center ">
-          <form class="login-form text-center">
-            <h1 class="mb-5 font-weight-light text-uppercase">Login</h1>
-              <div class="form-group">
-                  <input type="text" class="form-control rounded-pill form-control-lg" placeholder="email">
-              </div>
-              <div class="form-group">
-                  <input type="password" class="form-control rounded-pill form-control-lg" placeholder="Senha">
-              </div>
-              <div class="forgot-link d-flex align-items-center justify-content-beteween">
-                <div class="form-check">
-                  <input type="checkbox" class="form-check-input" id="remember">
-                  <label for="remember">Relembrar Senha</label>
-                </div>
-                <a href="">Esqueceu a senha?</a>
-              </div>
-              <button type="submit" class="btn mt-2 btn-custom btn-primary text-uppercase btn-block rounded-pill btn-lg">Login</button>
-              <p class="mt-3 font-weight-normal">Não tem conta <a href=""><strong>Cadastrar</strong></a></p>
-          </form>
-      </div>
+    <body class="text-center">
+      
+      <form class="form-signin">
+        
+          <a href="#"><img id="img" src="img/logo2.png" alt="dijunto"></a>
+          <div class="form-group">
+            
+            <label id="texto" for="exampleInputEmail1">Informe seu E-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="texto" class="form-text text-muted">Infome o seu e-mail que foi utilizado no cadastro.</small>
+          </div>
+          <div class="form-group">
+            <label id="texto" for="exampleInputPassword1">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="customSwitch1">
+            <label id="texto" class="custom-control-label mb-1" for="customSwitch1">Salvar dados de login?</label>
+            
+          </div>
+          <button type="submit" class="btn btn-secondary btn-lg btn-block">Login</button>
+          <a  class="nav-link"  href="url">Esqueceu a Senha?</a>
+        </form>
 
 
 
