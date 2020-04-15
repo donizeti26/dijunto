@@ -17,24 +17,30 @@
       <form class="form-signin">
         
           <a href="#"><img id="img" src="img/logo2.png" alt="dijunto"></a>
+          
           <div class="form-group">
             
-            <label id="texto" for="exampleInputEmail1">Informe seu E-mail</label>
+            <label id="texto_email" for="exampleInputEmail1">Informe seu E-mail</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
             <small id="texto" class="form-text text-muted">Infome o seu e-mail que foi utilizado no cadastro.</small>
           </div>
           <div class="form-group">
-            <label id="texto" for="exampleInputPassword1">Senha</label>
+            <label id="texto_senha" for="exampleInputPassword1">Senha</label>
             <input type="password" class="form-control" id="exampleInputPassword1">
+            <section class="final">
+            <a id="texto_link" class="link"  href="url">Esqueceu a Senha?</a>
+            <a id="texto_link" class="link"  href="url">Não esta cadastrado?</a>
+            </section>
           </div>
           <div class="form-group custom-control custom-checkbox">
             <input type="checkbox" class="custom-control-input" id="customSwitch1">
-            <label id="texto" class="custom-control-label mb-1" for="customSwitch1">Salvar dados de login?</label>
+            <label id="texto_dados" class="custom-control-label mb-1" for="customSwitch1">Salvar dados de login?</label>
             
           </div>
-          <button type="submit" class="btn btn-secondary btn-lg btn-block">Login</button>
-          <a  class="nav-link"  href="url">Esqueceu a Senha?</a>
+          <button type="submit" class="btn btn-warning btn-lg btn-block">Login</button>
+          <a id="texto_link" class="link" href="index.php"> Voltar ao inicio</a>
         </form>
+        
 
 
 
