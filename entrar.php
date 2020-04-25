@@ -2,9 +2,7 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Dijunto</title>
         <link rel="icon" type="imagem/png" href="./img/logo.png" />
         <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -16,7 +14,7 @@
       
       <form class="form-signin">
         
-          <a href="#"><img id="img" src="img/logo2.png" alt="dijunto"></a>
+          <a href="index.php"><img id="img" src="img/logo2.png" alt="dijunto"></a>
           
           <div class="form-group">
             

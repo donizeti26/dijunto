@@ -29,7 +29,7 @@
                       <a class="nav-link" href="#sobre">Sobre</a></li>
                     <li class="nav-item active">
                       <a class="nav-link" href="#areas">Nossas Areas</a></li>
-                    <div class="nav-item active" ><a class="btn btn-success my-2 my-sm-0" type="submit" role="button" href="cadastro.php" name="cadastrar">Cadastrar</a>
+                    <div class="nav-item active" ><a class="btn btn-warning my-2 my-sm-0" type="submit" role="button" href="cadastro.php" name="cadastrar">Cadastrar</a>
                 </ul>
               </nav>
 
